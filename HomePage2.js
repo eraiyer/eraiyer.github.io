@@ -1,0 +1,61 @@
+/**$(document).ready(function(){
+    $("#button1").click(function(){
+     $("#showWeekOne").show();
+    });
+});
+
+$(document).ready(function(){
+    $("#button2").click(function(){
+     $("#showWeekTwo").show();
+    });
+});
+
+$(document).ready(function(){
+    $("#button3").click(function(){
+     $("#showWeekThree").show();
+    });
+});
+$(document).ready(function(){
+    $("#button4").click(function(){
+     $("#showWeekFour").show();
+    });
+});*/
+
+$(document).ready(function(){
+    $("#one").click(function(){
+     $("#showWeekOne").show();
+	 $("#showWeekTwo").hide();
+	 $("#showWeekThree").hide();
+	 $("#showWeekFour").hide();
+	 $("#myCarousel").hide();
+    });
+    $("#two").click(function(){	
+     $("#showWeekOne").hide();
+	 $("#showWeekTwo").show();
+	 $("#showWeekThree").hide();
+	 $("#showWeekFour").hide();
+	 $("#myCarousel").hide();
+    });
+    $("#three").click(function(){
+     $("#showWeekOne").hide();
+	 $("#showWeekTwo").hide();
+	 $("#showWeekThree").show();
+	 $("#showWeekFour").hide();
+	 $("#myCarousel").hide();
+    });
+    $("#four").click(function(){
+     $("#showWeekOne").hide();
+	 $("#showWeekTwo").hide();
+	 $("#showWeekThree").hide();
+	 $("#showWeekFour").show();
+	 $("#myCarousel").hide();
+    });
+    $("#slideshow").click(function(){
+     $("#showWeekOne").hide();
+	 $("#showWeekTwo").hide();
+	 $("#showWeekThree").hide();
+	 $("#showWeekFour").hide();
+	 $("#myCarousel").show();
+    });
+});
+
