@@ -28,6 +28,7 @@ $(document).ready(function(){
 	 $("#showWeekThree").hide();
 	 $("#showWeekFour").hide();
 	 $("#myCarousel").hide();
+	 $("#mePic").hide();
     });
     $("#two").click(function(){	
      $("#showWeekOne").hide();
@@ -35,6 +36,7 @@ $(document).ready(function(){
 	 $("#showWeekThree").hide();
 	 $("#showWeekFour").hide();
 	 $("#myCarousel").hide();
+	 $("#mePic").hide();
     });
     $("#three").click(function(){
      $("#showWeekOne").hide();
@@ -42,6 +44,7 @@ $(document).ready(function(){
 	 $("#showWeekThree").show();
 	 $("#showWeekFour").hide();
 	 $("#myCarousel").hide();
+	 $("#mePic").hide();
     });
     $("#four").click(function(){
      $("#showWeekOne").hide();
@@ -49,6 +52,7 @@ $(document).ready(function(){
 	 $("#showWeekThree").hide();
 	 $("#showWeekFour").show();
 	 $("#myCarousel").hide();
+	 $("#mePic").hide();
     });
     $("#slideshow").click(function(){
      $("#showWeekOne").hide();
@@ -56,6 +60,7 @@ $(document).ready(function(){
 	 $("#showWeekThree").hide();
 	 $("#showWeekFour").hide();
 	 $("#myCarousel").show();
+	 $("#mePic").hide();
     });
 });
 
