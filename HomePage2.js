@@ -38,6 +38,14 @@ $(document).ready(function(){
 	 $("#myCarousel").hide();
 	 $("#mePic").hide();
     });
+     $("#home").click(function(){	
+     $("#showWeekOne").hide();
+	 $("#showWeekTwo").hide();
+	 $("#showWeekThree").hide();
+	 $("#showWeekFour").hide();
+	 $("#myCarousel").hide();
+	 $("#mePic").show();
+    });
     $("#three").click(function(){
      $("#showWeekOne").hide();
 	 $("#showWeekTwo").hide();
