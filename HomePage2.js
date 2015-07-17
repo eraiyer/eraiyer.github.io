@@ -39,7 +39,7 @@ $(document).ready(function(){
 	 $("#mePic").hide();
     });
       $("#home").click(function(){	
-     $("#showWeekOne").hide();
+     $("#showWeekOne").show();
 	 $("#showWeekTwo").hide();
 	 $("#showWeekThree").hide();
 	 $("#showWeekFour").hide();
