@@ -38,7 +38,7 @@ $(document).ready(function(){
 	 $("#myCarousel").hide();
 	 $("#mePic").hide();
     });
-     $("#home").click(function(){	
+     $("#main").click(function(){	
      $("#showWeekOne").hide();
 	 $("#showWeekTwo").hide();
 	 $("#showWeekThree").hide();
