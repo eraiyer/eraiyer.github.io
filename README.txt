@@ -6,8 +6,10 @@ README for Portfolio
 a resume. Each of these pages is linked to its own stlying (css) file. So
 far, the buttons between pages are correctly implemented, the image is properly
 formatted to fit a computer screen, and the content on each page is cohesive 
-and properly formatted. I have yet to update the styling issues on different 
-devices, particularly for screens smaller than a computer (like an iphone). 
+and properly formatted. I also made it so that the page can open up properly
+on different devices, particularly for screens smaller than a computer 
+(like an iphone). 
+
 In the future, I would like to implement a feature that allows for scrolling
 down to a new page when clicking on a button rather than moving to an entirely
 new page. 
